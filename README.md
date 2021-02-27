@@ -1,3 +1,3 @@
 # newhomework
 
-test
+- This is Andre Lucas' portfolio
