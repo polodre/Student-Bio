@@ -1,3 +1,9 @@
+body {
+  background-color: grey;
+  margin: 3px;
+  padding: 3px;
+}
+
 h1 {
   text-align: center;
 }
@@ -5,57 +11,4 @@ h1 {
 img {
   height: 300px;
   max-width: 300px;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a:hover {
-  color: aqua;
-}
-
-.container p {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  background-color: blue;
-}
-
-* {
-  background-color: grey;
-  margin: 3px;
-  padding: 3px;
-}
-
-.flex {
-  border: 3px solid black;
-  padding: 20px;
-  margin: 10px 5px 25px 0px;
-}
-
-.box1 .about_me {
-  border: solid;
-}
-
-.box2 .projects {
-  border: solid;
-}
-
-.box3 .contact_me {
-  border: solid;
-}
-
-.projects .box2 a:hover {
-  transform: scale(1.5);
 }
